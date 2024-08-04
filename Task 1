@@ -1,0 +1,40 @@
+###This Python program functions as a basic calculator. It allows users to perform simple arithmetic operations, including addition, subtraction, multiplication, and division. 
+Users can input two numbers and select the desired operation, and the program will compute and display the result. The program is designed to be user-friendly and efficient,
+making it a handy tool for quick calculations.
+
+
+def Calculator():
+
+    print("Simple Calculator")
+    print()
+    x=float(input("Enter first number"))
+    y=float(input("Enter second number"))
+
+    print("1.Addition:'+'")
+    print("2.Subtraction:'-'")
+    print("3.Multiplication:'*'")
+    print("4.Division:'/'")
+    operator=input("Choose an operator symbol for addition,subtraction, multiplication or division")
+
+    if operator=="+":
+        result=x+y
+        print("Sum of two numbers is",result)
+    elif operator=="-":
+        result=x-y
+        print("Difference of two numbers is",result)
+    elif operator=="*":
+        result=x*y
+        print("Product of two numbers is",result)
+    elif operator=="/":
+        if y==0:
+            print("Division by zero is not possible")
+        else:
+            result=x/y
+            print("Quotient of two numbers is",result)
+    else:
+        print("Invalid operator.Please choose a different operator.")
+
+
+for i in range(4):
+    Calculator()
+    print()
