@@ -32,5 +32,8 @@ Python:The main programming language used to develop the calculator program.
 Integrated Development Environment (IDE) or Text Editor: Use of tools like IDLE for writing and testing Python code. 
 
 
+![Screenshot (67)](https://github.com/user-attachments/assets/b4b7a6ea-c2d9-4db0-891c-7b2ea6cb5f07)
+
+
 
 
